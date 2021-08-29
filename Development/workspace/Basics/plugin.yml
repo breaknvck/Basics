@@ -1,0 +1,50 @@
+name: Basics
+version: 1.0
+author: Midno
+main: de.midno.basics.main.Main
+commands:
+   heal:
+      description: Heile dich oder andere Spieler.
+   teleport:
+      description: Teleportiere dich oder andere Spieler.
+      aliases: [tp]
+   gamemode:
+      description: Versetze dich oder andere Spieler in einen Gamemode.
+      aliases: [gm]
+   give:
+      description: Gib dir ein Item.
+      aliases: [item]
+   clear:
+      description: Leere dein Inventar oder das eines anderen Spielers.
+      aliases: [ci, c]
+   fspeed:
+      description: Setze deinen Fly-Speed.
+   wspeed:
+      description: Setze deinen Walk-Speed.
+   itemid:
+      description: Zeige Block ID an.
+      aliases: [id]
+   top:
+      description: Teleportiere dich nach oben.
+   day:
+      description: Setze Tag.
+   night:
+      description: Setze Nacht.
+   sun:
+      description: Setze Sonne.
+   rain:
+      description: Setze Regen.
+   msg:
+      description: Schicke einem Spieler eine Nachricht.
+   afk:
+      description: Setze dich AFK.
+   kick:
+      description: Kicke einen Spieler.
+   ban:
+      description: Banne einen Spieler.
+   unban:
+      description: Entbanne einen Spieler.
+   ranks:
+      description: Zeige die Raenge.
+   calc:
+      description: Rechne mit +, -, * oder /.
